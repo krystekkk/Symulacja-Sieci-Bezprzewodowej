@@ -2,6 +2,7 @@
 Projekt realizowany na zaliczenie przedmiotu 'Symulacja cyfrowa'. 
 
 Treść zadania:
+
 W sieci bezprzewodowej stacje nadawcze konkurują o dostęp do łącza. W losowych odstępach
 czasu CGPk k-ta stacja nadawcza generuje pakiety gotowe do wysłania. Po uzyskaniu dostępu do łącza
 zgodnie z algorytmem A, k-ty terminal podejmuje próbę transmisji najstarszego pakietu ze swojego
