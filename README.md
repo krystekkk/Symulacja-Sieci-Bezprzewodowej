@@ -19,7 +19,9 @@ retransmisji opiera się na tych samych zasadach co transmisja pierwotna. Jeśli
 retransmisji pakietu nie udało się poprawnie odebrać, wówczas stacja nadawcza odrzuca pakiet i – jeśli
 jej bufor nie jest pusty – przystępuje do próby transmisji kolejnego pakietu.
 
+
 Algorytm:
+
 Protokół CSMA (ang. Carrier Sense Multiple Access) z wymuszaniem transmisji z
 prawdopodobieństwem p (ang. p-persistent) – w protokole tym czas jest podzielony jest na szczeliny
 o długości CSC. Po wygenerowaniu nowego pakietu, stacja nadawcza sprawdza zajętość kanału
