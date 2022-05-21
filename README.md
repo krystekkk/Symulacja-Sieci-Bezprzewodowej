@@ -1,5 +1,5 @@
 # Symulacja-cyfrowa-projekt-studencki
-Projekt realizowany na zaliczenie przedmiotu 'Symulacja cyfrowa'. 
+Projekt realizowany na zaliczenie przedmiotu 'Symulacja cyfrowa'. Elektronika i Telekomunikacja, Politechnika Poznańska
 
 Treść zadania:
 
