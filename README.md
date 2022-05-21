@@ -37,3 +37,21 @@ stacja nadawcza sprawdza stan kanału po losowym czasie CRP równym R*CTPk, gdzi
 liczbą z przedziału od <0, (2r – 1)> , a r jest numerem aktualnej retransmisji (przy każdej retransmisji
 czas ten jest losowany ponownie). Wówczas uruchamiana jest taka sama procedura jak w przypadku
 transmisji pierwotnej. PT = 0.6
+
+
+Parametry wywołania programu:
+
+Czas trwania symulacji – wartość czasu symulacji, jaki użytkownik wprowadza na początku trwania
+programu. Z racji posiadanego algorytmu, w którym odpytywanie kanału gdy ten jest zajęty odbywa
+się w czasie 0.5 ms, obowiązuje następujący przelicznik jednostki czasu: np. 100 jednostek czasu
+symulacji = 10 milisekund. Użytkownik wprowadza wartość w milisekundach a program przelicza ją
+na jednostkę czasu symulacji.
+
+Lambda – intensywność rozkładu wykładniczego.
+
+Czas trwania fazy początkowej – czas, po upływie którego program rozpoczyna zbieranie statystyk.
+Wartości bowiem po upływie czasu trwania fazy początkowej stabilizują się.
+
+Tryb pracy symulatora – program symulacyjny pracuje w trypie krokowym lub ciągłym. Program
+prosi o wprowadzenie wartości 1 oznaczającej tryb ciągły lub wartości 2 oznaczającej tryb krokowy.
+W przypadku podania wartości spoza zakresu domyślnie wykonuje się tryb ciągły.
