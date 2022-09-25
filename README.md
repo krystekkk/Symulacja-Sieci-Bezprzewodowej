@@ -1,7 +1,6 @@
-# Symulacja-cyfrowa-projekt-studencki
-Projekt realizowany na zaliczenie przedmiotu 'Symulacja cyfrowa'. Elektronika i Telekomunikacja, Politechnika Poznańska
+# Symulacja sieci bezprzewodowej
 
-Treść zadania:
+Treść problemu:
 
 W sieci bezprzewodowej stacje nadawcze konkurują o dostęp do łącza. W losowych odstępach
 czasu CGPk k-ta stacja nadawcza generuje pakiety gotowe do wysłania. Po uzyskaniu dostępu do łącza
